@@ -15,6 +15,9 @@ runtime:
 build:
     flavor: none
 
+relationships:
+    database: "db:postgresql"
+
 web:
     locations:
         "/":
@@ -38,6 +41,3 @@ hooks:
         set -x -e
 
         (>&2 symfony-deploy)
-
-relationships:
-    database: "db:postgresql"
