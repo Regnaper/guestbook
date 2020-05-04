@@ -17,7 +17,6 @@ build:
 
 relationships:
     database: "db:postgresql"
-    redis: "rediscache:redis"
 
 web:
     locations:
