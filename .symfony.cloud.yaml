@@ -4,6 +4,7 @@ type: php:7.4
 
 runtime:
     extensions:
+        - amqp
         - apcu
         - mbstring
         - sodium
@@ -17,6 +18,7 @@ build:
 
 relationships:
     database: "db:postgresql"
+    rabbitmq: "queue:rabbitmq"
 
 web:
     locations:

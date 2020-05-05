@@ -1,0 +1,3 @@
+<?php // test.encrypt.public on Mon, 04 May 2020 20:31:51 +0300
+
+return "\x1AD\xCB\x8BV\xCF\xEDn\x0Acog\x158.\xDEZ\x1313\xE7\x8B\x1A\xE4\xF8\xDF\x91H\x92\xC4SE";
